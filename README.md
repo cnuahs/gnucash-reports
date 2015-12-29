@@ -12,8 +12,8 @@ To add a custom report to GnuCash:
 2. Add the following to config.user in your GnuCash configuration directory:
 
  ```scheme
- (set! %load-path (append %load-path '("[PATH TO .SCM FILES]")))
- (use-modules ([MODULE NAME]))
+ (set! %load-path (append %load-path '("PATH TO .SCM FILES")))
+ (use-modules (NAME))
  ```
 
  Note: By default, the GnuCash configuration directory is located at ~/.gnucash/ (on Linux) or ~/Library/Application Support/GnuCash/ (on OS X).
